@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lívia Mesquita</title>
+</head>
+<body>
+    <header>
+        <h1>Lívia Vitória Aguiar Mesquita</h1>
+        <p>Bem-vindo à minha página pessoal!</p>
+        <img src="FOTO PRINCIPAL LÍVIA.jpg" alt="FOTO PRINCIPAL LÍVIA" width="150">
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>Olá, meu nome é Lívia Mesquita. Sou uma acadêmica de Sistemas da Informação na UFRA. Gosto de aprender novas tecnologias e de explorar o mundo da programação. Além disso, tenho grande interesse em programação FullStack e Análise de Dados. </p>
+        </section>
+
+        <section>
+            <h2>Meus Hobbies</h2>
+            <ul>
+                <li>Programação</li>
+                <li>Leitura de livros de romance e mistério</li>
+                <li>Jogar voleibol</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Minhas Redes Sociais</h2>
+            <p>Você pode me encontrar nas seguintes redes sociais:</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/liviamesquita" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/liviamesquitax" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+
+        <table border="1">
+            <thead>
+                HORÁRIOS LIVRES
+            </thead>
+            
+            <tr>
+                <th>&nbsp;</th>
+                <th>SEGUNDA</th>
+                <th>TERÇA</th>
+                <th>QUARTA</th>
+                <th>QUINTA</th>
+                <th>SEXTA</th>
+            </tr>
+            <tr>
+                <th>MANHÃ</th>
+                <td>INDISPONÍVEL</td>
+                <td>9H - 12H</td>
+                <td>INDISPONÍVEL</td>
+                <td>9H - 12H</td>
+                <td>9H - 12H</td>
+            </tr>
+            <tr>
+                <th>TARDE</th>
+                <td>14H - 17H</td>
+                <td>14H - 17H</td>
+                <td>14H - 17H</td>
+                <td>14H - 17H</td>
+                <td>14H - 17H</td>
+            </tr>
+            <tr>
+                <th>NOITE</th>
+                <td>INDISPONÍVEL</td>
+                <td>INDISPONÍVEL</td>
+                <td>INDISPONÍVEL</td>
+                <td>INDISPONÍVEL</td>
+                <td>INDISPONÍVEL</td>
+            </tr>
+        </table>
+
+        <section>
+            <h2>Contato</h2>
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Lívia Mesquita. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
